@@ -79,23 +79,35 @@
 // tr()
 
 // }
+//
+//  function numbers (number1, number2) {
+//     if(number1 > number2){
+//         console.log("Первое число больше!")
+//     }else if (number1 < number2){
+//         console.log("Второе число больше!")
+//     }else {
+//         console.log("Равны")
+//     }
+//
+// }
+//
+//     numbers(5, 8)
+//
+//
+// const arr1 = [ 1234, 1123, 1232, 3456]
+// function counChar(arr1) {
+//     console.log(arr1.length)
+// }
+// counChar(arr1)
 
- function numbers (number1, number2) {
-    if(number1 > number2){
-        console.log("Первое число больше!")
-    }else if (number1 < number2){
-        console.log("Второе число больше!")
-    }else {
-        console.log("Равны")
+function FizzBuzz(aTarget) {
+    for (let i = 1; i <= aTarget; i++) {
+        let result = "";
+        if (i%3 === 0) result += "Fizz";
+        if (i%5 === 0) result += "Buzz";
+        if (result.length === 0) result = i;
+
+        console.log(result);
     }
-
 }
-
-    numbers(5, 8)
-
-
-const arr1 = [ 1234, 1123, 1232, 3456]
-function counChar(arr1) {gi
-    console.log(arr1.length)
-}
-counChar(arr1)
+FizzBuzz(100)
