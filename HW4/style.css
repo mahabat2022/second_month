@@ -1,0 +1,39 @@
+
+body {
+     background: linear-gradient(to right, #6ebbff, #bfe9ff);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocks {
+    width: 500px;
+    background: linear-gradient(90deg, rgb(63, 94, 251) 0%, rgb(206, 7, 48) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+    border-radius: 20%;
+}
+
+.counter {
+    font-size: 50px;
+    color: #bb00ff;
+    margin: 10px 0;
+}
+div button {
+    width: 80px;
+    height: 60px;
+    margin: 10px 30px;
+    border-radius: 60px;
+    border: none;
+}
+ button {
+     font-size: 20px;
+     color: black;
+}
