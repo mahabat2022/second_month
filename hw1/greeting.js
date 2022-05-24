@@ -12,7 +12,7 @@ if (arr.length > arr1.length) {
     console.log("Досвидание!");
 }
 
-const color = prompt("Выборите цвет?");
+const color = prompt("Выборите цвет? red orange green");
 
 switch (color) {
     case "red":
@@ -26,8 +26,6 @@ switch (color) {
         break;
     default:
         break;
-
-
 }
 
 
