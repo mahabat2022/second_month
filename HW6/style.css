@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(129, 151, 215, 0.91) 0%, rgb(68, 117, 177) 50%, rgb(26, 88, 220) 100%);
+    font-family: "Lucinda Grande", "Lucinda Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.container {
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.input input {
+    width: 350px;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #2a2d2d;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.input button {
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid #214faa;
+}
+
+.input button:hover {
+    background-color: #5dadd4;
+}
+
+.todo li {
+    color: #323131;
+    font-size: 20px;
+    list-style: none;
+}
